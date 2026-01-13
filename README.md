@@ -1,16 +1,105 @@
-# React + Vite
+# 🧮 Redux Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small beginner-friendly Counter Application built using **React + Redux Toolkit**. This project helped me understand the **basic concepts of Redux** like store, slice, reducers, actions, and global state management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Purpose
 
-## React Compiler
+The main goal of this project is to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Learn **Redux fundamentals**
+* Understand how **global state** works in React
+* Practice using **Redux Toolkit (RTK)** in a simple app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* ⚛️ React (Vite)
+* 🧰 Redux Toolkit
+* 🔗 React-Redux
+* 🎨 CSS
+
+---
+
+## ✨ Features
+
+* Increment counter value
+* Decrement counter value
+* Global state managed using Redux
+* Clean and simple UI
+
+---
+
+## 🧠 What I Learned
+
+Through this project, I learned:
+
+* What is **Redux** and why it is used
+* Difference between **local state** and **global state**
+* How to create a **Redux store** using `configureStore`
+* How to create a **slice** using `createSlice`
+* How **reducers** and **actions** work
+* How to use `useSelector` and `useDispatch` hooks
+* Importance of defining **initialState** in reducers
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+│── App.jsx
+│── main.jsx
+│── App.css
+│── redux/
+│   │── redux.js   // store + slice logic
+```
+
+src/
+│── App.jsx
+│── main.jsx
+│── store.js
+│── counterSlice.js
+│── App.css
+
+````
+
+---
+
+## ⚙️ Redux Flow (Simple Explanation)
+1. User clicks **INC / DEC** button
+2. Action is dispatched using `dispatch()`
+3. Reducer updates the state
+4. Updated state is reflected in the UI
+
+---
+
+## ▶️ How to Run the Project
+```bash
+npm install
+npm run dev
+````
+
+---
+
+## 📌 Future Improvements
+
+* Add reset button
+* Add increment by custom value
+* Add TypeScript support
+* Improve UI animations
+
+---
+
+## 🙌 Conclusion
+
+This project gave me a **strong basic understanding of Redux Toolkit**. It is a simple but important step toward building larger and more scalable React applications.
+
+---
+
+### 👨‍💻 Author
+
+**Sarath**
+Frontend Developer (Fresher)
